@@ -1,11 +1,41 @@
 <template>
-    <setup></setup>
+    <app-navigator></app-navigator>
 </template>
 
 <script>
-    import Setup from "./src/setup.vue";
+    import {
+        createAppContainer,
+        createDrawerNavigator,
+        createStackNavigator
+    } from "vue-native-router";
+
+    import SignIn from "./src/screens/SignIn.vue";
+    import SignUp from "./src/screens/SignUp.vue";
+
+    const DrawerNavigator = createDrawerNavigator(
+    {
+        SignIn: SignIn,
+        SignUp: SignUp
+    },
+    {
+        initialRouteName: 'SignIn'
+    }
+    );
+
+    const StackNavigator = createStackNavigator(
+    {
+        Drawer: DrawerNavigator,
+        SignIn: SignIn,
+        SignUp: SignUp
+    },
+    {
+        initialRouteName: 'SignIn',
+    }
+    );
+
+    const AppNavigator = createAppContainer(StackNavigator);
 
     export default {
-        components: {Setup}
-    };
+        components: {AppNavigator},
+    }
 </script>

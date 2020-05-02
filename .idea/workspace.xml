@@ -4,10 +4,18 @@
     <list default="true" id="24afa58a-3a08-4b1c-9e66-537bf1ce1568" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/sidebar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/mutations.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/screens" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/screens" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,12 +45,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/screens" />
       <recent name="$PROJECT_DIR$/screens" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -58,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588402407744</updated>
       <workItem from="1588402410894" duration="7752000" />
-      <workItem from="1588411998606" duration="4253000" />
+      <workItem from="1588411998606" duration="14118000" />
     </task>
     <servers />
   </component>
@@ -66,21 +78,21 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="179" width="566" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588412752322">
+    <state x="395" y="179" width="582" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588422817510">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state x="395" y="179" width="566" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.700@0.27.1366.700" timestamp="1588412752322" />
-    <state x="416" y="126" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588411893998">
+    <state x="395" y="179" width="582" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.700@0.27.1366.700" timestamp="1588422817510" />
+    <state x="416" y="126" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588424796761">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state x="416" y="126" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.700@0.27.1366.700" timestamp="1588411893998" />
-    <state x="374" y="118" width="618" height="518" key="find.popup" timestamp="1588412518496">
+    <state x="416" y="126" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.700@0.27.1366.700" timestamp="1588424796761" />
+    <state x="374" y="118" width="642" height="518" key="find.popup" timestamp="1588418924244">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state x="374" y="118" width="618" height="518" key="find.popup/0.27.1366.700@0.27.1366.700" timestamp="1588412518496" />
-    <state x="347" y="166" key="run.anything.popup" timestamp="1588406116932">
+    <state x="374" y="118" width="642" height="518" key="find.popup/0.27.1366.700@0.27.1366.700" timestamp="1588418924244" />
+    <state x="347" y="166" key="run.anything.popup" timestamp="1588424408061">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state x="347" y="166" key="run.anything.popup/0.27.1366.700@0.27.1366.700" timestamp="1588406116932" />
+    <state x="347" y="166" key="run.anything.popup/0.27.1366.700@0.27.1366.700" timestamp="1588424408061" />
   </component>
 </project>
