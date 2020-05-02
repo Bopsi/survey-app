@@ -1,33 +1,11 @@
 <template>
-    <view class="container">
-        <button :title="message" @press="handleBtnPress"/>
-    </view>
+    <setup></setup>
 </template>
 
 <script>
+    import Setup from "./src/setup.vue";
+
     export default {
-        data: function() {
-            return {
-                message: "Hello World"
-            };
-        },
-        methods: {
-            handleBtnPress: function() {
-                alert('Btn Press');
-            }
-        }
+        components: {Setup}
     };
 </script>
-
-<style>
-    .container {
-        background-color: white;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-    }
-
-    .text-color-primary {
-        color: blue;
-    }
-</style>
