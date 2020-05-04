@@ -11,11 +11,13 @@
 
     import SignIn from "./src/screens/SignIn.vue";
     import SignUp from "./src/screens/SignUp.vue";
+    import Surveys from "./src/screens/Surveys.vue"
 
     const DrawerNavigator = createDrawerNavigator(
     {
         SignIn: SignIn,
-        SignUp: SignUp
+        SignUp: SignUp,
+        Surveys: Surveys
     },
     {
         initialRouteName: 'SignIn'
@@ -26,7 +28,8 @@
     {
         Drawer: DrawerNavigator,
         SignIn: SignIn,
-        SignUp: SignUp
+        SignUp: SignUp,
+        Surveys: Surveys
     },
     {
         initialRouteName: 'SignIn',

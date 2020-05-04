@@ -6,16 +6,7 @@
       <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screen/sidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setup.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/fetch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/mutations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/SignIn.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/SignIn.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588402407744</updated>
       <workItem from="1588402410894" duration="7752000" />
-      <workItem from="1588411998606" duration="14118000" />
+      <workItem from="1588411998606" duration="26765000" />
     </task>
     <servers />
   </component>
@@ -78,10 +69,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="179" width="582" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588422817510">
+    <state x="395" y="179" width="582" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588575505513">
       <screen x="0" y="27" width="1366" height="700" />
     </state>
-    <state x="395" y="179" width="582" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.700@0.27.1366.700" timestamp="1588422817510" />
+    <state x="395" y="179" width="582" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.700@0.27.1366.700" timestamp="1588575505513" />
     <state x="416" y="126" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588424796761">
       <screen x="0" y="27" width="1366" height="700" />
     </state>

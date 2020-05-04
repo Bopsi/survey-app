@@ -11,6 +11,9 @@
 </template>
 
 <script>
+    import axios from "axios";
+    import auth from "../auth";
+
     export default {
         name: "SignIn",
         props: {
@@ -20,13 +23,32 @@
         },
         data() {
             return {
-                email: null,
-                password: null
+                email: 'john.doe@acme.com',
+                password: 'Acme@123'
             }
         },
+        mounted() {
+            this.init();
+        },
         methods: {
-            signin() {
-                alert("Signing u in");
+            async init() {
+                const signedId = await auth.isSignedIn();
+                if(signedId) {
+                    await this.navigation.navigate("Surveys");
+                }
+            },
+            async signin() {
+                try {
+                    let reply = await axios.post('http://192.168.0.108:3000/users/signin', {email: this.email, password: this.password})
+                    if(reply.data.token) {
+                        await auth.signIn(reply.data.token);
+                        await this.navigation.navigate("Surveys");
+                    }
+                } catch(e) {
+                    alert(e);
+                } finally {
+
+                }
             },
             goToSignUpScreen() {
                 this.navigation.navigate("SignUp");
